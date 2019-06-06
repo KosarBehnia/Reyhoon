@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Shabnam1;
+    src: url('../fonts/Shabnam.eot');
+    src: url('../fonts/Shabnam.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Shabnam.woff2') format('woff2'),
+         url('../fonts/Shabnam.woff') format('woff'),
+         url('../fonts/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  
+  .post-titr {
+      font-family:Shabnam1;
+      display:inline;
+      
+  }
+.grid-container {
+    display: grid;
+    grid-template-columns: 65% 30% 3%;
+    grid-template-rows: 60px ;
+    background-color: #fff;
+    padding: 0px;
+  }
+  .item-a {
+    grid-column: 2/ 3;
+    grid-row: 1 / 2;
+  }
+  #grad1 {
+    margin-top:0px;
+    height: 3px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgba(251, 6, 26) , rgba(140, 0, 174)); /* Standard syntax (must be last) */
+  }
+  .padding40
+{
+    padding-right: 40px;	
+}
+.padding10
+{
+    padding-right: 10px;	
+}
+.nav  li{
+    display: inline;
+    margin-left: 5px;
+    padding-left: 5px;
+    }
+    .nav li:first-child {  border-left: solid 2px black; }
+    
+    li :hover {
+      color: rgb(197, 0, 114);
+    }

@@ -1,0 +1,169 @@
+@font-face {
+  font-family: Shabnam1;
+  src: url('../fonts/Shabnam.eot');
+  src: url('../fonts/Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Shabnam.woff2') format('woff2'),
+       url('../fonts/Shabnam.woff') format('woff'),
+       url('../fonts/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+
+
+
+
+.grid-container8{
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px 380px ;
+    grid-template-rows:100px;
+    margin: 0px 0px;
+    margin-left:0px;
+    padding: 40px;
+    column-gap: 20px;
+    text-align:right;
+    color:white;
+  }
+  .item-grid8-a{
+    grid-row:1/2;
+    grid-column:4/5;
+    justify-self: center;
+  }
+  .item-grid8-b{
+    grid-row:1/2;
+    grid-column:3/4;
+    justify-self: center;
+  }
+  .item-grid8-c{
+    grid-row:1/2;
+    grid-column:2/3;
+    justify-self: center;
+  }
+  .item-grid8-d{
+    grid-row:1/2;
+    grid-column:1/2;
+    justify-self: center;
+  }
+  .liney
+{
+  margin-top:0px;
+  height:3px;
+  width:150px;
+  background-color:rgb(255, 195, 0); /* For browsers that do not support gradients */
+  margin-top:-155px;
+}
+.fontfoot{
+  font-size:12px;
+}
+.simple{
+    list-style-type: none;
+}
+.marginlst{
+    margin-top:25px;
+}
+.fontcontact{
+	font-weight: bold;
+	font-size:13px;
+}
+.margintop5{
+	margin-top:5px;
+}
+.linerr
+{
+  margin-top:0px;
+  height:3px;
+  width:150px;
+  background-color:rgb(255, 6, 19); /* For browsers that do not support gradients */
+  margin-top:-155px;
+}
+.gray{
+	color:rgb(123, 126, 134);
+}
+.liner
+{
+  margin-top:0px;
+  height:3px;
+  width:150px;
+  background-color: rgb(212, 0, 98); /* For browsers that do not support gradients */
+  margin-top:-155px;
+}
+.linep{
+    margin-top:0px;
+    height:3px;
+    width:150px;
+    background-color: rgb(139, 0, 175); /* For browsers that do not support gradients */
+    margin-top:-155px;
+  }
+  .margin150{
+	margin-top:-110px;
+}
+.margintop10{
+	margin-top:10px;
+}
+.blue{
+	color:rgb(71, 144, 228);
+}
+.center{
+	text-align:center;
+}
+.position{
+	margin: -15px 0;
+}
+.footer2 {
+    background-color: rgb(25, 25, 25);
+    padding: 10px;
+    margin-top:0px;
+    text-align: right;
+    color: white;
+  }
+  .left{
+	text-align: left;
+}
+.inline{
+	display:inline;
+}
+.alignr{
+	float:right;
+}
+.fontic{
+	font-size:25px;
+}
+.margin150{
+	margin-top:-110px;
+}
+.marginl20{
+	margin-left:20px;
+}
+.marginl70{
+	margin-left:70px;
+}
+.footer {
+    background-color: rgb(32, 32, 32);
+    padding-left: 90px; 
+    padding-top: 130px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    margin-top:50px;
+    text-align: right;
+    color: white;
+  }
+   
+  .white-box6 { width:50px ; height: 2px; margin-left: 0; margin-right: 0px;   
+    background-repeat: no-repeat;
+  padding: 15px 33px;
+  border:solid 1px rgb(123, 126, 134);
+  margin: 0px 0px;
+  z-index:1;
+  justify-self:center;
+  border-radius: 3px;
+  
+  }
+ 
+  .backgoogle{
+	 
+    background-image: url("../../assets/googleplay.JPG");
+    }
+    .backreyhoon{
+      background-image: url("../../assets/getreyhoon.JPG");
+    }
+    .backbazar{
+      background-image: url("../../assets/getbazar.JPG");
+    }
