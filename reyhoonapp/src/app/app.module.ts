@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { RestaurantlistComponent } from './restaurantlist/restaurantlist.component';
+import { SecondComponent } from './second/second.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    RestaurantlistComponent
+    RestaurantlistComponent,
+    SecondComponent,
+    MainComponent,
   ],
   imports: [
     BrowserModule,

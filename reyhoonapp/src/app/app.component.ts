@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'reyhoonapp';
-  
+  handleClick (){
+    console.log('Click')
+  }
 
 }
